@@ -4,12 +4,13 @@ import React from "react";
 const LargeCard = ({ img, title, description, buttonText }) => {
   return (
     <section className="relative py-16 cursor-pointer">
-      <div className="relative h-96 min-w-[300px">
+      <div className="relative h-96 min-w-[300px]">
         <Image
           src={img}
           layout="fill"
           objectFit="cover"
           className="rounded-2xl"
+          alt="Large"
         />
       </div>
       <div className="absolute top-32 left-12">
